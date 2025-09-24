@@ -1,0 +1,14 @@
+* {
+    background: #71cf5a;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.centered-div {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+.centered-div.flex-center {
+    justify-content: center;
+    align-items: center;
+}
