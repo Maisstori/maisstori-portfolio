@@ -3,6 +3,10 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.profile-pic {
+    border-radius: 100px;
+}
+
 .centered-div {
     width: 50%;
     margin: auto;
@@ -11,4 +15,6 @@
 .centered-div.flex-center {
     justify-content: center;
     align-items: center;
+    display: flex;
+    gap: 25px;
 }
