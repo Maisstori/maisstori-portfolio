@@ -2,27 +2,105 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>maisstori</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Maisstori's personal portfolio website">
+        <title>Maisstori</title>
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <div class="centered-div">
-            <img class="profile-pic" src="assets/Maisstori Pofile Pic.png" width="20%">
-            <h1>Maisstori</h1>
-            <h3>Welcome to my personal website</h3>
-            <p>Site is currently under construction! Coming soon to a server near you!</p>
-        </div>
-        <div class="centered-div flex-center">
-            
-            <a href="https://github.com/Maisstori">
-                <img src="assets/github-mark.png" width="40px">
-            </a>
-            <a href="https://x.com/Maisstori">
-                <img src="assets/twitter logo-black.png" width="30px">
-            </a>
-            <a href="https://bsky.app/profile/maisstori.bsky.social">
-                <img src="assets/bluesky logo transparent.png" width="40px">
-            </a>
-        </div>
+        <header class="site-header">
+            <nav class="nav">
+                <a href="#top" class="nav-brand">Maisstori</a>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section id="top" class="hero">
+                <img class="profile-pic" src="assets/profile-pic.png" alt="Portrait of Maisstori" width="160" height="160">
+                <h1>Maisstori</h1>
+                <p class="tagline">TODO: replace with a one-line tagline, e.g. "Frontend developer building playful web experiences."</p>
+                <div class="hero-actions">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+            </section>
+
+            <section id="about" class="section">
+                <h2>About Me</h2>
+                <p>
+                    TODO: replace with a real bio. A few sentences about who you are, what you're
+                    learning or working on, and what kind of projects interest you.
+                </p>
+                <ul class="skills">
+                    <li>TODO: Skill 1</li>
+                    <li>TODO: Skill 2</li>
+                    <li>TODO: Skill 3</li>
+                    <li>TODO: Skill 4</li>
+                </ul>
+            </section>
+
+            <section id="projects" class="section">
+                <h2>Projects</h2>
+                <div class="project-grid">
+                    <article class="project-card">
+                        <h3>TODO: Project Name</h3>
+                        <p>TODO: Short description of what the project does and what you used to build it.</p>
+                        <div class="project-links">
+                            <a href="#">Live Demo</a>
+                            <a href="#">Source Code</a>
+                        </div>
+                    </article>
+                    <article class="project-card">
+                        <h3>TODO: Project Name</h3>
+                        <p>TODO: Short description of what the project does and what you used to build it.</p>
+                        <div class="project-links">
+                            <a href="#">Live Demo</a>
+                            <a href="#">Source Code</a>
+                        </div>
+                    </article>
+                    <article class="project-card">
+                        <h3>TODO: Project Name</h3>
+                        <p>TODO: Short description of what the project does and what you used to build it.</p>
+                        <div class="project-links">
+                            <a href="#">Live Demo</a>
+                            <a href="#">Source Code</a>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section id="resume" class="section">
+                <h2>Resume</h2>
+                <p>TODO: A sentence or two summarizing your experience, then download the full resume below.</p>
+                <a href="assets/resume.pdf" class="btn btn-primary" download>Download Resume (PDF)</a>
+            </section>
+
+            <section id="contact" class="section">
+                <h2>Contact</h2>
+                <p>Want to get in touch? Send me an email or find me on socials below.</p>
+                <a href="mailto:TODO@example.com" class="btn btn-primary">Email Me</a>
+                <div class="socials">
+                    <a href="https://github.com/Maisstori" aria-label="GitHub">
+                        <img src="assets/github-mark.png" alt="GitHub" width="40" height="40">
+                    </a>
+                    <a href="https://x.com/Maisstori" aria-label="X (Twitter)">
+                        <img src="assets/twitter-logo.png" alt="X (Twitter)" width="34" height="34">
+                    </a>
+                    <a href="https://bsky.app/profile/maisstori.bsky.social" aria-label="Bluesky">
+                        <img src="assets/bluesky-logo.png" alt="Bluesky" width="40" height="40">
+                    </a>
+                </div>
+            </section>
+        </main>
+
+        <footer class="site-footer">
+            <p>&copy; 2026 Maisstori</p>
+        </footer>
     </body>
 </html>
